@@ -1,0 +1,35 @@
+According to Wikipedia, A Rube Goldberg machine is a contraption, invention, device or apparatus that is deliberately over-engineered or overdone to perform a very simple task in a very complicated fashion, usually including a chain reaction. The expression is named after American cartoonist and inventor Rube Goldberg (1883–1970).
+
+In this project, we have tried to simulate a simple rube goldberg machine, whose objective is to switch on a wall-mounted TV.
+
+Our setup consists of a ball which is made to run down a slide, pass through a ring and fall on a set of dominoes, initiating a domino effect. The TV mounted on a wall in the same hall switches on when the last domino falls on the TV's switch.
+
+Game plan:
+The user is provided with a Play button initially when the page loads. 
+The canvas is made to appear on screen and WebGL is set up and the animation is rendered when the user presses this button.
+
+For camera navigation, the user can zoom in (upto a limit), zoom out (till a limit), move the camera head up, down, left, right.
+
+Computer Graphics Concepts that have been covered:
+1. Lighting
+2. Collision- Collision will bring about change in the state of the whole machine.
+3. Transformation- The user can control the navigation of the camera.
+4. Texture mapping on all the objects
+
+Modules and Technical Specifics:
+The webpage has been verified to run well on Mozilla Firefox.
+<video> tag is used to render video in the TV.
+Twitter bootstrap is used to provide style to the Project name and play button on the webpage
+
+1)SETUP:
+
+-->Create a server (we used the command python -m SimpleHTTPServer to create one in ubuntu)
+-->Host the component1.html file on the server
+
+2) USER INTERACTION:
+
+--> Click on play
+--> arrow keys up,down,right,left help in navigating the room.
+--> keys i and m help in zooming in and out of the room.
+
+
